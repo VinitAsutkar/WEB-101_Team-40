@@ -8,7 +8,7 @@
     <style>
         body
         {
-            background-color: blue;
+            background-color: #74aac5;
         }
         div
         {
@@ -41,7 +41,6 @@
         #input input
         {
             padding: 20px;
-            text-decoration: underline;
             border: 0px solid;
             font-size: 20px;
         }
@@ -64,6 +63,11 @@
         {
             text-align: center;
         }
+        .line
+        {
+            border-bottom: 2px solid grey;
+            padding: 0px;
+        }
         
     </style>
 </head>
@@ -74,9 +78,9 @@
         </div>
         <div id="input">
             <input type="text" , placeholder="Email">
-            <hr>
+            <div class="line"></div>
             <input type="text" , placeholder="Password">
-            <hr>
+            <div class="line"></div>
         </div>
         <div id="button">
             <h3>Login</h3>
